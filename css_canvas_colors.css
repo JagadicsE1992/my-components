@@ -1,0 +1,128 @@
+#canvas{
+  width: 300px;
+  height: 300px;
+  /*http://www.color-hex.com/color-palette/48080
+  background-color: #27ae61;*/
+    
+  /*A margin: 0 auto; esetén az első érték a felső és alsó, 
+  a második érték a két oldalsó margó értéke lesz. 
+  Az automatikus két oldalsó margó azt mondja a böngészőnek, 
+  hogy még nem tudjuk mennyi legyen a pontos érték, 
+  de legyen a kettő egyenlő. Így a tartalom középre kerül.*/
+  margin: 0 auto;
+  /*Árnyékolás*/
+  box-shadow: 15px 15px 10px #17683a; /*vízszintes, függőleges, elmosódás, kiterjedés, szín (első 3 és az ötödik kötelező)*/
+}
+#elso-sor{
+  height: 75%;
+  width: 100%;
+  background-color: #2d3e50;
+  position: relative;
+}
+#piros-negyzet{
+  height: 100%;
+  width: 75%;
+  background-color: #FF0000;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#fekete-oszlop{
+  height: 100%;
+  width: 5%;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  right: 225px;
+}
+#feher-1{
+  height: 50%;
+  width: 20%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#fekete-sor1{
+  height: 10%;
+  width: 20%;
+  background-color: #000000;
+  position: absolute;
+  bottom: 112.5px;
+  left: 0;
+}
+#feher-2{
+  height: 40%;
+  width: 20%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#masodik-sor{
+  height: 5%;
+  width: 100%;
+  background-color: #000000;
+}
+#harmadik-sor{
+  height: 20%;
+  width: 100%;
+  background-color: #c1392b;
+  position: relative;
+}
+#kek{
+  width: 20%;
+  height: 100%;
+  background-color: #0000FF;
+  position: absolute;
+  left: 0;
+  bottom: 0;  
+}
+#fekete-oszlop2{
+  width: 5%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  left: 60px;
+  bottom: 0;
+}
+#feher-tegla{
+  width: 55%;
+  height: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 75px;
+  bottom:0;
+}
+#fekete-oszlop3{
+  width: 5%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  left: 240px;
+  bottom: 0;
+}
+#feher-negyzet{
+  width: 15%;
+  height: 45%;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#fekete-kissor{
+  width: 15%;
+  height: 20%;
+  background-color: #000000;
+  position: absolute;
+  right: 0;
+  top: 27px;
+}
+#sarga{
+  width: 15%;
+  height: 35%;
+  background-color: #FFFF00;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
